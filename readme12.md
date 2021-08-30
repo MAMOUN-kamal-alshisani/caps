@@ -10,7 +10,7 @@
 
 * [GitHub Repo Link](https://github.com/MAMOUN-kamal-alshisani/caps)
 
-* [Pull Request](https://github.com/MAMOUN-kamal-alshisani/auth-api/pull/1)
+* [Pull Request](https://github.com/MAMOUN-kamal-alshisani/caps/pull/3)
 
 <!-- * [Heroku Link](https://api-auth-mine.herokuapp.com/signUp)  -->
 
