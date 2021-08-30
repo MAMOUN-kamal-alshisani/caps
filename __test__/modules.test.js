@@ -32,27 +32,27 @@ describe("caps test", () => {
     });
 });
 
-// describe("driver test", () => {
-//     it('transit',()=>{
-//         const driver = require("../modules/driver");
-//         driver.emit('Driver-in-transit',payload);
-//         expect( driver.emit('Driver-in-transit',payload)).toEqual(true);
-//     });
+describe("driver test", () => {
+    it('transit',()=>{
+        const driver = require("../modules/driver");
+        driver.emit('Driver-in-transit',payload);
+        expect( driver.emit('Driver-in-transit',payload)).toEqual(true);
+    });
 
-//     it('transit',()=>{
-//         const driver = require("../modules/driver");
-//         driver.emit('driverTransit',payload);
-//         expect( driver.emit('driverTransit',payload)).toEqual(true);
-//     });
+    it('transit',()=>{
+        const driver = require("../modules/driver");
+        driver.emit('driverTransit',payload);
+        expect( driver.emit('driverTransit',payload)).toEqual(true);
+    });
 
-// });
+});
 
 
-// describe("driver test", () => {
-//     it('transit',()=>{
-//         const vendor = require("../modules/vendor");
-//         vendor.emit('vendorDileverd',payload);
-//         expect( vendor.emit('vendorDileverd',payload)).toEqual(true);
-//     });
+describe("driver test", () => {
+    it('transit',()=>{
+        const vendor = require("../modules/vendor");
+        vendor.emit('vendorDileverd',payload);
+        expect( vendor.emit('vendorDileverd',payload)).toEqual(true);
+    });
 
-// });
+});
